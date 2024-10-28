@@ -726,7 +726,7 @@ footer p{
 /* fim #FOOTER */
 
 
-@media (max-width: 480px) { /*responsividade em smartphones*/
+@media (min-width: 370px) and (max-width: 600px)  { /*responsividade em smartphones*/
     body{
         width: 100vw;
         height: auto;
