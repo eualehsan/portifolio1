@@ -161,25 +161,30 @@
     </section>
 
     <section id="formulario">
-        <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+       <form action="https://formsubmit.co/eualehsan28@gmail.com" method="post">
             <h1>Contate-me</h1>
 
             <label for="nome">Nome completo</label>
-            <input type="text">
+            <input type="text" name="text" id="text" required>
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
 
             <label for="tp-de-serviço">Tipo de serviço</label>
-            <select name="tp-de-servico" id="tp-de-servico">
+            <select name="tp-de-servico" id="tp-de-servico" required>
                 <option value="landing-page">Landing page</option>
                 <option value="site-institucional">Site institucional</option>
                 <option value="site-estático">Site estático</option>
                 <option value="Outro">Outro</option>
             </select>
             <label for="descricao-de-servico">Descrição</label>
-            <textarea placeholder="Uma descrição do seu projeto" id="descricao-de-servico"></textarea>
-            <button>Enviar<i class="fa-regular fa-paper-plane"></i></button>
+            <textarea placeholder="Uma descrição do seu projeto" id="descricao-de-servico" required></textarea>
+            <button type="submit">Enviar<i class="fa-regular fa-paper-plane"></i></button>
+            
+            <input type="hidden" name="_next" value="https://eualehsan.github.io/portifolio1/thanks-page.html">
+            <input type="hidden" name="_subject" value="Email from Meu portifólio">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Obrigado pelo contato! Retornarei seu contato em breve.">
         </form>
     </section>
 
